@@ -1,0 +1,37 @@
+@use 'variables' as *;
+
+// mixins to take care of repeated patterns.
+@mixin set-font($size: 1em, $line-height: normal, $font: $fonts-body) {
+  font-family: $font;
+  font-size: $size;
+  line-height: $line-height;
+}
+
+h2,
+h3,
+h4 {
+  font-family: $fonts-headline;
+  margin: 0;
+}
+h1 {
+  background: $accent1;
+  color: $text-light;
+}
+h2 {
+  color: $text-light;
+}
+h3 {
+  font-size: 2.25em;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: 200; /* Thin */
+}
+
+p {
+  @include set-font(1em, 1.5em);
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+
