@@ -64,3 +64,9 @@ section {
 .uppercase-light {
   @include atoms.uppercase($text-light);
 }
+.wireframe-desktop{
+  width: 400px;
+}
+.wireframe-desktop{
+  width: 200px;
+}
