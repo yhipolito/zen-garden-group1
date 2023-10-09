@@ -64,9 +64,14 @@ section {
 .uppercase-light {
   @include atoms.uppercase($text-light);
 }
-.wireframe-desktop{
+
+//for when the sass compiles
+.wireframe-desktop {
   width: 400px;
+  vertical-align: top;
 }
-.wireframe-mobile{
+.wireframe-mobile {
   width: 200px;
+  vertical-align: top;
 }
+

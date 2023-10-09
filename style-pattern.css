@@ -134,4 +134,13 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #F3E4E2;
-}/*# sourceMappingURL=style-pattern.css.map */
+}
+
+.wireframe-desktop {
+  width: 400px;
+  vertical-align: top;
+}
+.wireframe-mobile {
+  width: 200px;
+  vertical-align: top;
+}
